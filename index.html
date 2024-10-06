@@ -4,17 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Zyarex</title>
-    <link rel="icon" href="assets/images/logo.jpeg" type="image/x-icon">
-    <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
-    <link href="assets/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link rel="icon" href="assets/images/logo.png" type="image/x-icon">
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+
     <link rel="stylesheet" href="assets/css/main.css" type="text/css">
+
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap Icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.5.0/font/bootstrap-icons.min.css" rel="stylesheet">
 </head>
 <body>
-  <div class="container">
+<div class="container mt-3 ">
     <div class="container d-flex justify-content-end align-items-center"> 
       <div class="dropdown me-3"> 
         <p class="dropdown-toggle" id="languageDropdown" data-bs-toggle="dropdown" aria-expanded="false">
@@ -38,18 +44,17 @@
         </ul>
       </div>
   
-      <div class="me-3">
+      <div class="me-3" style="margin-top: -23px;">
         <a href="#" class="text-decoration-none">
           <i class="bi bi-cart" style="font-size: 1.5rem;color: black;"></i>
         </a>
       </div>
     </div>
-  </div>
-  
-  <nav class="navbar navbar-expand-lg">
+  </div>  
+  <nav class="navbar navbar-expand-lg" >
     <div class="container">
       <a class="navbar-brand" href="index.html">
-        <img src="assets/images/logo.jpeg" alt="" width="130" height="130">
+        <img src="assets/images/logo.png" alt="" width="130" height="130">
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -88,16 +93,16 @@
   
     <div class="container mt-5" id="hero">
       <div class="row">
-        <div class="col-md-4" id="hero_left">
+        <div class="col-sm-12 col-md-4" id="hero_left">
           <h1 >Your trusted web hosting partner</h1>
           <p class="text-black-50" id="hero_p">We make your business grow constantly in each segmant of the market</p>
           <a href="" class="btn text-white mt-3" id="hero_a">Explore our plans</a>
         </div>
-        <div class="col-md-7">
+        <div class="col-sm-12 col-md-7">
           <img src="assets/images/image.png" alt="" width="800" height="800" id="home_image" >
         </div>
       </div>      
-      <div class="col-12 green pb-5" id="search">
+      <div class="col-sm-12 col-md-12 green pb-5" id="search">
         <h2 class="text-white">Find your perfect <br>Domain with Zyarex</h2>
         <p class="text-white">Enter your idea or keyword below and begin your journey toward a memorable and effective domain for your website.</p>
         <div class="search-container">
@@ -361,8 +366,9 @@
       </div>
       
     </footer>
-    
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js"></script>
+
+  
+  <!-- Bootstrap JS bundle (includes Popper.js) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
