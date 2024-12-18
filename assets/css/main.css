@@ -51,6 +51,9 @@ body{
 .nav-link.active {
     color: green;
 }
+#sign-in:hover{
+  background-color: green;
+}
 nav{
     margin-top: -25px;
 }
@@ -331,12 +334,109 @@ h1{
   }
 }
 @media screen and (min-width:577px){
-  .mob-footer{
+  .large-footer{
     display: none;
   }
+  h1{
+    font-size:36px;
+  }
+  #hero_left{
+    margin-left: 0rem;
+    text-align: center;
+  }  
+  #home_image{
+    margin-top:0px;
+    width: 95%;
+    height: 95%;
+  }
+  #search{
+    margin-top: -153px;
+  }
+  .search-now{
+    padding:0px;
+  }
+  .domain{
+    width:40%;
+  }
+  #solutions img {
+    width: 86%;
+    height: 91%;
+  }
+  #solutions h2{
+    text-align: center;
+    font-size: 30px;
+  }
+  .solutions-div h4,.solutions-div p{
+    text-align: center;
+  }
+  .plans-heading{
+    margin-left:0px;
+  }
+  .plans-heading h2, .plans-heading p{
+    text-align: center;
+  }
+  .plans{
+    width: 65%;
+  }
+  .contact-left{
+    margin-left: 0px;
+  }
+  #contact h2{
+    font-size: 36px;
+    text-align: center;
+  }
+  #contact p{
+    text-align: center;
+  }
+  #contact a{
+    margin-left: 13rem;
+  }
 }
-@media screen and (min-width:768px)
+@media screen and (min-width:768px) and (max-width:991px)
 {
+  .mobile-footer{
+    display: none;
+  }
+  #home_image{
+    width: 110%;
+    height: 93%;
+    margin-top: -25px;
+    margin-left: 126px;
+    }
+  
+  h1{
+    font-size: 42px;
+  }
+  #hero_p{
+    font-size: 14px;
+  }
+  #search{
+    margin-top: -157px;
+  }
+  #solutions img {
+    width: 62%;
+    height: 85%;
+    margin-left: 7rem;
+  }
+  #solutions h2{
+    font-size: 34px;
+  }
+  .plans{
+    width: 50%;
+  }
+  #contact h2{
+    font-size: 30px;
+    text-align: left;
+  }
+  #contact p{
+    text-align: left;
+  }
+  #contact a{
+    margin-left: 0px;
+  }
+  .footer-div{
+    margin-left: 16%;
+  }
 
 }
 @media screen and (min-width:992px)
@@ -345,6 +445,63 @@ h1{
 }
 @media screen and (min-width:1200px)
 {
+h1{
+  font-size: 46px;
+}
+#home_image {
+  margin-top: -96px;
+  width: 101%;
+  height: 120%;
+}
+.search-now{
+  padding: 12px;
+}
+.domain h2{
+  font-size: 36px;
+}
+.domain p{
+  font-size: 23;
+}
+#solutions h2{
+  font-size: 36px;
+}
+#solutions p{
+  font-size: 18px;
+}
+#break-line{
+  display: none;
+}
+.plans{
+  width: 30%;
+}
+#plans h2{
+  font-size: 40px;
+}
+#plans p{
+  font-size:17px
+}
+#assist h6{
+  font-size: 25px;
+}
+#contact p{
+  text-align: left;
+  font-size: 17px;
+}
+#contact a{
+  margin-left: 0px;
+}
+#contact h2{
+  text-align: left;
+}
+.mob-footer{
+  display: none;
+}
+.large-footer{
+  display: block;
+}
+.domain{
+  width: 25%;
+}
 
 }
 @media screen and (min-width:1400px)
