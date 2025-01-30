@@ -1,0 +1,92 @@
+.dom-reg{
+    background-color: #EFF1EC;
+}
+.checkbox-group {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+  }
+  .checkbox-group label {
+    margin-right: 10px;
+  }
+  .hidden-group {
+    display: none;
+  }
+  h1{
+    color: #45503D;
+    line-height: 70px;
+  }
+  p{
+    color: #9A998E;
+  }
+  .btn-idn{
+    background-color: #155029;
+    color: white;
+  }
+  .btn-domain{
+    color: #155029;
+    border: #155029;
+  }
+  #dom-ext a{
+    color: #155029;
+    margin-right: 15px;
+    font-size: 12px;
+  }
+  .new-domain{
+    background: linear-gradient(#3D8C04,#4DA60D);
+    color: white;
+    margin-top: 5%;
+    border-radius: 0.75rem;
+    width: 55%;
+    padding-bottom: 2%;
+    height: 70%; 
+    padding-left: 3%;   
+  }
+  .new-domain-image{
+    margin-left: -2rem;
+  }
+  .new-domain h3{
+    font-size: 35px;
+    padding-bottom: 2rem;
+  }
+  .new-domain button{
+    background-color: #155029;
+    color: white;
+    padding: 12px;
+  }
+  #free-ads{
+    background-color: #EFF1EC;
+  }
+  #free-ads h2{
+    color: #45503D;
+    line-height: 50px;
+  }
+  #free-ads-div{
+    background-color: #155029;
+    width: 78%;
+    height: 85%;
+    border-radius: 0.75rem;
+    margin: 10px auto;
+  }
+  #free-ads-div img{
+    margin-left: -6rem;
+    margin-top: -3rem;
+  }
+  #free-ads h2{
+    font-size: 38px;
+    line-height: 50px;
+  }
+  #free-ads button{
+    background-color: #155029;
+    color: white;
+    padding: 10px;
+    margin-top: 1rem;
+  }
+  #features p{
+    color: #9A998E;
+    font-size: 13px;
+    line-height: 25px;
+  }
+  #search-now{
+    padding: 13px;
+  }

@@ -1,6 +1,12 @@
 body{
   font-family: poppins;
 }
+#cart{
+  color: black;
+}
+#cart:hover{
+  color: green;
+}
 #home_image{
   margin-top:-162px;
 }
@@ -256,6 +262,93 @@ h1{
 }
 .footer-left{
   margin-left: 6rem;
+}
+/* Main nav link hover effect */
+.nav-link {
+  color: #333;
+  text-decoration: none;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+
+.nav-link:hover {
+  background-color: #155029;
+  color: white;
+}
+
+/* Style the submenu container */
+.submenu {
+  display: none;
+  position: absolute;
+  top: 100%; /* Position below the parent item */
+  left: 0px !important;
+  background: #fff;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 0px;
+  z-index: 10;
+  width: 650px;; /* Fixed width for all submenu boxes */
+  height: 300px; /* Fixed height for all submenu boxes */
+  border-radius: 8px;
+  overflow: hidden;  
+}
+.westside{
+  margin-left: -6em;
+}
+.westside1{
+  margin-left: -11em;
+}
+.westside2{
+  margin-left: -16em;
+}
+.westside3{
+  margin-left: -21em;
+}
+.westside4{
+  margin-left: -26em;
+}
+.westside5{
+  margin-left: -35em;
+}
+
+/* Submenu heading style */
+.submenu-heading {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: white;
+  border: 1px solid #e0e0e0;
+  padding-bottom: 5px;
+  border-radius: 0.85rem;
+  background-color: #155029
+}
+
+
+/* Submenu list */
+.submenu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.submenu ul li {
+  margin-bottom: 5px;
+}
+
+.submenu ul li a {
+  color: #333;
+  text-decoration: none;
+  font-size: 14px;
+  transition: color 0.3s ease;
+}
+
+.submenu ul li a:hover {
+  color: #1c4d23;
+}
+
+/* Show submenu on hover */
+.nav-item:hover .submenu {
+  display: block;
 }
 @media (max-width: 768px) {
   body {
