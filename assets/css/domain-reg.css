@@ -14,9 +14,9 @@
   }
   h1{
     color: #45503D;
-    line-height: 70px;
+    line-height: 65px;
   }
-  p{
+  .dom-reg p,#free-ads p{
     color: #9A998E;
   }
   .btn-idn{
@@ -89,4 +89,11 @@
   }
   #search-now{
     padding: 13px;
+  }
+  .search-section select{
+    border: 0;
+    color: #9A998E ;
+    font-size: 13px;
+    width: 160px;
+    height: 35px;
   }

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Domain Search</title>
+    <title>IDN Search</title>
     <link rel="icon" href="assets/images/logo.png" type="image/x-icon">
     
     <!-- Bootstrap CSS -->
@@ -457,8 +457,8 @@
         <div class="row justify-content-center">
             <div class="col-6">
                 <h1 class="mb-3">Domain Name Registration</h1>
-                <a href="#" class="btn btn-outline-success" id="btn-domain">Domain Search</a>
-                <a href="/idn-search.html" class="btn btn-idn">IDN Search</a>
+                <a href="/domain-search.html" class="btn btn-idn" id="btn-domain">Domain Search</a>
+                <a href="#" class="btn btn-outline-success">IDN Search</a>
             </div>
             <div class="col-6">
               <p class="pt-4">To search for  domains, type your desired <br>domains name on a separate line and choose <br>your extensions</p>
@@ -472,29 +472,28 @@
             <a href="" class="btn btn-success" id="search-now">Search Now</a>
           </div>
         </div>
-        <div class="row mt-5">
+        <div class="row mt-5 search-section">
           <div class="col-3">
-            <h5>Most Popular Domain Extensions:</h5>
+            <h6>Step 2. Choose Languages: </h6>
           </div>
-          <div class="col-9" id="dom-ext">
-            <div class="checkbox-group">
-              <label><input type="checkbox" value="com"> .com</label>
-              <label><input type="checkbox" value="net"> .net</label>
-              <label><input type="checkbox" value="in"> .in</label>
-              <label><input type="checkbox" value="io"> .io</label>
-              <label><input type="checkbox" value="online"> .online</label>
-              <label><input type="checkbox" value="org"> .org</label>
-              <label><input type="checkbox" value="biz"> .biz</label>
-              <label><input type="checkbox" value="live"> .live</label>
-              <label><input type="checkbox" value="store"> .store</label>
-              <div class="hidden-group" id="hidden-group">
-                <label><input type="checkbox" value="abc"> .abc</label>
-                <label><input type="checkbox" value="xyz"> .xyz</label>
-                <label><input type="checkbox" value="pqr"> .pqr</label>
-              </div>
-            </div>
-            <a id="select-all">Select All <i class="bi bi-arrow-right"></i></a>
-            <a id="view-more">View More <i class="bi bi-arrow-right"></i></a>
+          <div class="col-2">
+            <select name="" id="">
+                <option value="">Select Language</option>
+                <option value="english">English</option>
+                <option value="french">French</option>
+                <option value="spanish">Spanish</option>
+            </select>
+          </div>         
+          <div class="col-4">
+            <h6>Step 3. Supported Domain Extensions: </h6>
+          </div>
+          <div class="col-3">
+            <select name="" id="">
+                <option value="">Select Domains</option>
+                <option value="english">English</option>
+                <option value="french">French</option>
+                <option value="spanish">Spanish</option>
+            </select>
           </div>
         </div>
     </div>

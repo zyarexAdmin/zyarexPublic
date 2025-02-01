@@ -313,6 +313,7 @@ h1{
 
 /* Submenu heading style */
 .submenu-heading {
+  padding-left: 15px;
   font-size: 16px;
   font-weight: bold;
   margin-bottom: 10px;
@@ -333,6 +334,7 @@ h1{
 
 .submenu ul li {
   margin-bottom: 5px;
+  padding-left: 15px;
 }
 
 .submenu ul li a {
@@ -349,6 +351,21 @@ h1{
 /* Show submenu on hover */
 .nav-item:hover .submenu {
   display: block;
+}
+.tagline{
+  font-size: 12px;
+  line-height: 10px;
+}
+.tag-heading{
+  font-size: small;
+}
+.signin-button{
+  background: linear-gradient(#155029,#4DA60D);
+  width: 100%;
+  border: 0;
+  color: white;
+  padding: 5px;
+  margin-bottom: 1rem;
 }
 @media (max-width: 768px) {
   body {
